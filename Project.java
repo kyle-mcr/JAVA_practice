@@ -1,17 +1,19 @@
 import java.util.*;
 
 public class Project {
-    private String name;
-    private String decription;
+    public String name;
+    public String decription;
 
     public Project () {
     }
     public Project (String name){
-        this.name = name;
+        name = name;
+        System.out.println(name);
+        
     }
-    public Pitch (String name, String description){
-        this.name = name;
-        this.description = description;
-        return Pitch(name + description)
+    public Project (String name, String description){
+        name = name;
+        desc = desc;
+        System.out.println(name + description);
     }
 }
